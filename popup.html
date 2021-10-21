@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./popup.css">
+</head>
+<body>
+	<p id="count"></p>
+	<ol id="errs">
+		
+	</ol>
+	
+	<hr>
+	<br>
+
+	<label for="username"><strong>Your Name: </strong></label>
+	<input type="text" name="name" id="username" placeholder="Your name here.">
+	<br>
+	<br>
+	
+	<label for="copyValue"><strong>Table Data:</strong></label>
+	<br>
+	<input type="text" name="hidden" id="copyValue" value="<table><tr></tr></table>">
+
+	<br>
+	<br>
+	<button id="copyTable">Copy Table Data</button><p class="sub"><em>Note: Clicking copy will regenerate the table and copy it.</em></p>
+
+	<br>
+	<button id="clearData">Clear Saved Violations</button>
+</body>
+<script type="text/javascript" src="./popup.js"></script>
+</html>

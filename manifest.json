@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "CLT ELOG",
+	"version": "0.1",
+
+	"content_scripts": [
+		{
+			"matches": [
+				"http://ple.odu.edu/*",
+				"https://ple.odu.edu/*"
+			],
+			"js": ["content.js"]
+		}
+	],
+
+	"browser_action": {
+      "default_popup": "popup.html"
+    }
+}
