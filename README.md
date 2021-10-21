@@ -35,4 +35,3 @@ In this case, copy the data into a new spreadsheet and then copy and paste the f
 ## Missing Features and Notes
 - ~~You currently cannot remove a single item from the list. It will be added soon.~~ [ADDED]
 - You need to type your name into the text box before you copy the data. Otherwise no name will be associated with the unfixables.
-# elog
